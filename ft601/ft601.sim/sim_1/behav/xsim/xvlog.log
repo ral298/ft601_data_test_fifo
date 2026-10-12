@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/ft601.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ft601
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/ft601_loopback.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ft601_loopback
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_ft601.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcileech_ft601
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/ft601_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ft601_vlg_tst

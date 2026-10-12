@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="ft601_vlg_tst_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="ft601_vlg_tst" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="10,575 ps"></ZoomStartTime>
+      <ZoomEndTime time="10,940 ps"></ZoomEndTime>
+      <Cursor1Time time="10,730 ps"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="182"></NameColumnWidth>
+      <ValueColumnWidth column_width="156"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="105" />
+   <wvobject fp_name="divider19" type="divider">
+      <obj_property name="label">ft601</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/ft601_clk">
+      <obj_property name="ElementShortName">ft601_clk</obj_property>
+      <obj_property name="ObjectShortName">ft601_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ft601_vlg_tst/i1/tickcount64">
+      <obj_property name="ElementShortName">tickcount64[63:0]</obj_property>
+      <obj_property name="ObjectShortName">tickcount64[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/user_ld1_n">
+      <obj_property name="ElementShortName">user_ld1_n</obj_property>
+      <obj_property name="ObjectShortName">user_ld1_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/user_ld2_n">
+      <obj_property name="ElementShortName">user_ld2_n</obj_property>
+      <obj_property name="ObjectShortName">user_ld2_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/user_sw1_n">
+      <obj_property name="ElementShortName">user_sw1_n</obj_property>
+      <obj_property name="ObjectShortName">user_sw1_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/user_sw2_n">
+      <obj_property name="ElementShortName">user_sw2_n</obj_property>
+      <obj_property name="ObjectShortName">user_sw2_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/ft601_rst_n">
+      <obj_property name="ElementShortName">ft601_rst_n</obj_property>
+      <obj_property name="ObjectShortName">ft601_rst_n</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ft601_vlg_tst/i1/ft601_data">
+      <obj_property name="ElementShortName">ft601_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ft601_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ft601_vlg_tst/i1/ft601_be">
+      <obj_property name="ElementShortName">ft601_be[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ft601_be[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/ft601_rxf_n">
+      <obj_property name="ElementShortName">ft601_rxf_n</obj_property>
+      <obj_property name="ObjectShortName">ft601_rxf_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/ft601_txe_n">
+      <obj_property name="ElementShortName">ft601_txe_n</obj_property>
+      <obj_property name="ObjectShortName">ft601_txe_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/ft601_wr_n">
+      <obj_property name="ElementShortName">ft601_wr_n</obj_property>
+      <obj_property name="ObjectShortName">ft601_wr_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/ft601_siwu_n">
+      <obj_property name="ElementShortName">ft601_siwu_n</obj_property>
+      <obj_property name="ObjectShortName">ft601_siwu_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/ft601_rd_n">
+      <obj_property name="ElementShortName">ft601_rd_n</obj_property>
+      <obj_property name="ObjectShortName">ft601_rd_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/ft601_oe_n">
+      <obj_property name="ElementShortName">ft601_oe_n</obj_property>
+      <obj_property name="ObjectShortName">ft601_oe_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/com_rx_valid32">
+      <obj_property name="ElementShortName">com_rx_valid32</obj_property>
+      <obj_property name="ObjectShortName">com_rx_valid32</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ft601_vlg_tst/i1/com_rx_data32">
+      <obj_property name="ElementShortName">com_rx_data32[31:0]</obj_property>
+      <obj_property name="ObjectShortName">com_rx_data32[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ft601_vlg_tst/i1/core_din">
+      <obj_property name="ElementShortName">core_din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">core_din[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/core_din_wr_en">
+      <obj_property name="ElementShortName">core_din_wr_en</obj_property>
+      <obj_property name="ObjectShortName">core_din_wr_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/core_din_ready">
+      <obj_property name="ElementShortName">core_din_ready</obj_property>
+      <obj_property name="ObjectShortName">core_din_ready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ft601_vlg_tst/i1/core_din_n">
+      <obj_property name="ElementShortName">core_din_n[31:0]</obj_property>
+      <obj_property name="ObjectShortName">core_din_n[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/core_din_wr_en_n">
+      <obj_property name="ElementShortName">core_din_wr_en_n</obj_property>
+      <obj_property name="ObjectShortName">core_din_wr_en_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider43" type="divider">
+      <obj_property name="label">lench</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/i_pcileech_ft601/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/i_pcileech_ft601/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ft601_vlg_tst/i1/i_pcileech_ft601/FT601_BE">
+      <obj_property name="ElementShortName">FT601_BE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">FT601_BE[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ft601_vlg_tst/i1/i_pcileech_ft601/FT601_DATA">
+      <obj_property name="ElementShortName">FT601_DATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FT601_DATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/i_pcileech_ft601/FT601_RXF_N">
+      <obj_property name="ElementShortName">FT601_RXF_N</obj_property>
+      <obj_property name="ObjectShortName">FT601_RXF_N</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/i_pcileech_ft601/FT601_TXE_N">
+      <obj_property name="ElementShortName">FT601_TXE_N</obj_property>
+      <obj_property name="ObjectShortName">FT601_TXE_N</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/i_pcileech_ft601/FT601_OE_N">
+      <obj_property name="ElementShortName">FT601_OE_N</obj_property>
+      <obj_property name="ObjectShortName">FT601_OE_N</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/i_pcileech_ft601/FT601_RD_N">
+      <obj_property name="ElementShortName">FT601_RD_N</obj_property>
+      <obj_property name="ObjectShortName">FT601_RD_N</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/i_pcileech_ft601/FT601_WR_N">
+      <obj_property name="ElementShortName">FT601_WR_N</obj_property>
+      <obj_property name="ObjectShortName">FT601_WR_N</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/i_pcileech_ft601/FT601_SIWU_N">
+      <obj_property name="ElementShortName">FT601_SIWU_N</obj_property>
+      <obj_property name="ObjectShortName">FT601_SIWU_N</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ft601_vlg_tst/i1/i_pcileech_ft601/dout">
+      <obj_property name="ElementShortName">dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/i_pcileech_ft601/dout_valid">
+      <obj_property name="ElementShortName">dout_valid</obj_property>
+      <obj_property name="ObjectShortName">dout_valid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ft601_vlg_tst/i1/i_pcileech_ft601/din">
+      <obj_property name="ElementShortName">din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">din[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/i_pcileech_ft601/din_wr_en">
+      <obj_property name="ElementShortName">din_wr_en</obj_property>
+      <obj_property name="ObjectShortName">din_wr_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/i_pcileech_ft601/din_req_data">
+      <obj_property name="ElementShortName">din_req_data</obj_property>
+      <obj_property name="ObjectShortName">din_req_data</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ft601_vlg_tst/i1/i_pcileech_ft601/FT601_DATA_OUT">
+      <obj_property name="ElementShortName">FT601_DATA_OUT[4:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">FT601_DATA_OUT[4:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/i_pcileech_ft601/FWD">
+      <obj_property name="ElementShortName">FWD</obj_property>
+      <obj_property name="ObjectShortName">FWD</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/i_pcileech_ft601/OE">
+      <obj_property name="ElementShortName">OE</obj_property>
+      <obj_property name="ObjectShortName">OE</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ft601_vlg_tst/i1/i_pcileech_ft601/data_cooldown_count">
+      <obj_property name="ElementShortName">data_cooldown_count[3:0]</obj_property>
+      <obj_property name="ObjectShortName">data_cooldown_count[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ft601_vlg_tst/i1/i_pcileech_ft601/data_queue_count">
+      <obj_property name="ElementShortName">data_queue_count[2:0]</obj_property>
+      <obj_property name="ObjectShortName">data_queue_count[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ft601_vlg_tst/i1/i_pcileech_ft601/state">
+      <obj_property name="ElementShortName">state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/i_pcileech_ft601/predic">
+      <obj_property name="ElementShortName">predic</obj_property>
+      <obj_property name="ObjectShortName">predic</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ft601_vlg_tst/i1/i_pcileech_ft601/i_dataout">
+      <obj_property name="ElementShortName">i_dataout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i_dataout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider67" type="divider">
+      <obj_property name="label">fifo</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/loop/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/loop/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ft601_vlg_tst/i1/loop/din_data">
+      <obj_property name="ElementShortName">din_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">din_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/loop/din_valid">
+      <obj_property name="ElementShortName">din_valid</obj_property>
+      <obj_property name="ObjectShortName">din_valid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ft601_vlg_tst/i1/loop/dout_data">
+      <obj_property name="ElementShortName">dout_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/loop/dout_valid">
+      <obj_property name="ElementShortName">dout_valid</obj_property>
+      <obj_property name="ObjectShortName">dout_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/loop/dout_req_data">
+      <obj_property name="ElementShortName">dout_req_data</obj_property>
+      <obj_property name="ObjectShortName">dout_req_data</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ft601_vlg_tst/i1/loop/byte3to0">
+      <obj_property name="ElementShortName">byte3to0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">byte3to0[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ft601_vlg_tst/i1/loop/byte2to1">
+      <obj_property name="ElementShortName">byte2to1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">byte2to1[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ft601_vlg_tst/i1/loop/byte1to2">
+      <obj_property name="ElementShortName">byte1to2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">byte1to2[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ft601_vlg_tst/i1/loop/byte0to3">
+      <obj_property name="ElementShortName">byte0to3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">byte0to3[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ft601_vlg_tst/i1/loop/fifo_mem">
+      <obj_property name="ElementShortName">fifo_mem[0:9][31:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_mem[0:9][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ft601_vlg_tst/i1/loop/wr_ptr">
+      <obj_property name="ElementShortName">wr_ptr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_ptr[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ft601_vlg_tst/i1/loop/rd_ptr">
+      <obj_property name="ElementShortName">rd_ptr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_ptr[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ft601_vlg_tst/i1/loop/fifo_count">
+      <obj_property name="ElementShortName">fifo_count[4:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_count[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/loop/fifo_full">
+      <obj_property name="ElementShortName">fifo_full</obj_property>
+      <obj_property name="ObjectShortName">fifo_full</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/loop/fifo_empty">
+      <obj_property name="ElementShortName">fifo_empty</obj_property>
+      <obj_property name="ObjectShortName">fifo_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider67" type="divider">
+      <obj_property name="label">top</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/user_ld1_n">
+      <obj_property name="ElementShortName">user_ld1_n</obj_property>
+      <obj_property name="ObjectShortName">user_ld1_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/user_ld2_n">
+      <obj_property name="ElementShortName">user_ld2_n</obj_property>
+      <obj_property name="ObjectShortName">user_ld2_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/user_sw1_n">
+      <obj_property name="ElementShortName">user_sw1_n</obj_property>
+      <obj_property name="ObjectShortName">user_sw1_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/user_sw2_n">
+      <obj_property name="ElementShortName">user_sw2_n</obj_property>
+      <obj_property name="ObjectShortName">user_sw2_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/ft601_rst_n">
+      <obj_property name="ElementShortName">ft601_rst_n</obj_property>
+      <obj_property name="ObjectShortName">ft601_rst_n</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ft601_vlg_tst/i1/ft601_data">
+      <obj_property name="ElementShortName">ft601_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ft601_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ft601_vlg_tst/i1/ft601_be">
+      <obj_property name="ElementShortName">ft601_be[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ft601_be[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/ft601_rxf_n">
+      <obj_property name="ElementShortName">ft601_rxf_n</obj_property>
+      <obj_property name="ObjectShortName">ft601_rxf_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/ft601_txe_n">
+      <obj_property name="ElementShortName">ft601_txe_n</obj_property>
+      <obj_property name="ObjectShortName">ft601_txe_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/ft601_wr_n">
+      <obj_property name="ElementShortName">ft601_wr_n</obj_property>
+      <obj_property name="ObjectShortName">ft601_wr_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/ft601_siwu_n">
+      <obj_property name="ElementShortName">ft601_siwu_n</obj_property>
+      <obj_property name="ObjectShortName">ft601_siwu_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/ft601_rd_n">
+      <obj_property name="ElementShortName">ft601_rd_n</obj_property>
+      <obj_property name="ObjectShortName">ft601_rd_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/ft601_oe_n">
+      <obj_property name="ElementShortName">ft601_oe_n</obj_property>
+      <obj_property name="ObjectShortName">ft601_oe_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ft601_vlg_tst/i1/tickcount64">
+      <obj_property name="ElementShortName">tickcount64[63:0]</obj_property>
+      <obj_property name="ObjectShortName">tickcount64[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/com_rx_valid32">
+      <obj_property name="ElementShortName">com_rx_valid32</obj_property>
+      <obj_property name="ObjectShortName">com_rx_valid32</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ft601_vlg_tst/i1/com_rx_data32">
+      <obj_property name="ElementShortName">com_rx_data32[31:0]</obj_property>
+      <obj_property name="ObjectShortName">com_rx_data32[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ft601_vlg_tst/i1/core_din">
+      <obj_property name="ElementShortName">core_din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">core_din[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/core_din_wr_en">
+      <obj_property name="ElementShortName">core_din_wr_en</obj_property>
+      <obj_property name="ObjectShortName">core_din_wr_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/core_din_ready">
+      <obj_property name="ElementShortName">core_din_ready</obj_property>
+      <obj_property name="ObjectShortName">core_din_ready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ft601_vlg_tst/i1/core_din_n">
+      <obj_property name="ElementShortName">core_din_n[31:0]</obj_property>
+      <obj_property name="ObjectShortName">core_din_n[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/core_din_wr_en_n">
+      <obj_property name="ElementShortName">core_din_wr_en_n</obj_property>
+      <obj_property name="ObjectShortName">core_din_wr_en_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/con0">
+      <obj_property name="ElementShortName">con0</obj_property>
+      <obj_property name="ObjectShortName">con0</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/con1">
+      <obj_property name="ElementShortName">con1</obj_property>
+      <obj_property name="ObjectShortName">con1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/con2">
+      <obj_property name="ElementShortName">con2</obj_property>
+      <obj_property name="ObjectShortName">con2</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/con0_led">
+      <obj_property name="ElementShortName">con0_led</obj_property>
+      <obj_property name="ObjectShortName">con0_led</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/con1_led">
+      <obj_property name="ElementShortName">con1_led</obj_property>
+      <obj_property name="ObjectShortName">con1_led</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/stated_led">
+      <obj_property name="ElementShortName">stated_led</obj_property>
+      <obj_property name="ObjectShortName">stated_led</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ft601_vlg_tst/i1/mem_status">
+      <obj_property name="ElementShortName">mem_status[9:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_status[9:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/led_pwronblink">
+      <obj_property name="ElementShortName">led_pwronblink</obj_property>
+      <obj_property name="ObjectShortName">led_pwronblink</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ft601_vlg_tst/i1/stated_con_led">
+      <obj_property name="ElementShortName">stated_con_led</obj_property>
+      <obj_property name="ObjectShortName">stated_con_led</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ft601_vlg_tst/i1/con_mem_status">
+      <obj_property name="ElementShortName">con_mem_status[3:0]</obj_property>
+      <obj_property name="ObjectShortName">con_mem_status[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ft601_vlg_tst/i1/con_mem_status_led">
+      <obj_property name="ElementShortName">con_mem_status_led[3:0]</obj_property>
+      <obj_property name="ObjectShortName">con_mem_status_led[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider227" type="divider">
+      <obj_property name="label">comparar</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ft601_vlg_tst/i1/loop/fifo_mem">
+      <obj_property name="ElementShortName">fifo_mem[0:9][31:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_mem[0:9][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ft601_vlg_tst/test_values">
+      <obj_property name="ElementShortName">test_values[0:9][31:0]</obj_property>
+      <obj_property name="ObjectShortName">test_values[0:9][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,9 @@
+0.7
+2020.2
+May 21 2025
+22:59:56
+/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/ft601.sim/sim_1/behav/xsim/glbl.v,1741209010,verilog,,,,glbl,,,,,,,,
+/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/ft601.v,1769624639,verilog,,/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/ft601_loopback.v,,ft601,,,../../../../../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef,,,,,
+/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/ft601_loopback.v,1769791154,verilog,,/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_ft601.v,,ft601_loopback,,,../../../../../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef,,,,,
+/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/ft601_test.v,1769717399,verilog,,,,ft601_vlg_tst,,,../../../../../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef,,,,,
+/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_ft601.v,1769539012,verilog,,/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/ft601_test.v,,pcileech_ft601,,,../../../../../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef,,,,,

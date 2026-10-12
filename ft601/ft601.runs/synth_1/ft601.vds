@@ -1,0 +1,413 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Wed May 21 22:58:25 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Fri Oct  9 23:35:26 2026
+# Process ID         : 6785
+# Current directory  : /home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/ft601.runs/synth_1
+# Command line       : vivado -log ft601.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ft601.tcl
+# Log file           : /home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/ft601.runs/synth_1/ft601.vds
+# Journal file       : /home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/ft601.runs/synth_1/vivado.jou
+# Running On         : ral298-System-Product-Name
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 22.04.5 LTS
+# Processor Detail   : AMD Ryzen 7 5700G with Radeon Graphics
+# CPU Frequency      : 4652.846 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 62978 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 65126 MB
+# Available Virtual  : 61431 MB
+#-----------------------------------------------------------
+source ft601.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental /home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/ft601.srcs/utils_1/imports/synth_1/ft601.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from /home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/ft601.srcs/utils_1/imports/synth_1/ft601.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top ft601 -part xc7a75tfgg484-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a75t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a75t'
+INFO: [Device 21-403] Loading part xc7a75tfgg484-2
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 6813
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 2107.664 ; gain = 441.711 ; free physical = 52369 ; free virtual = 57301
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'ft601' [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/ft601.v:13]
+INFO: [Synth 8-6157] synthesizing module 'OBUF' [/tools/Xilinx/2025.1/Vivado/scripts/rt/data/unisim_comp.v:104261]
+INFO: [Synth 8-6155] done synthesizing module 'OBUF' (0#1) [/tools/Xilinx/2025.1/Vivado/scripts/rt/data/unisim_comp.v:104261]
+INFO: [Synth 8-6157] synthesizing module 'pcileech_ft601' [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_ft601.v:12]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_ft601.v:172]
+INFO: [Synth 8-6155] done synthesizing module 'pcileech_ft601' (0#1) [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_ft601.v:12]
+INFO: [Synth 8-6157] synthesizing module 'ft601_loopback' [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/ft601_loopback.v:73]
+INFO: [Synth 8-6155] done synthesizing module 'ft601_loopback' (0#1) [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/ft601_loopback.v:73]
+INFO: [Synth 8-6155] done synthesizing module 'ft601' (0#1) [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/ft601.v:13]
+WARNING: [Synth 8-7137] Register fifo_mem_reg in module ft601_loopback has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code 
+WARNING: [Synth 8-4767] Trying to implement RAM 'fifo_mem_reg' in registers. Block RAM or DRAM implementation is not possible; see log for reasons.
+Reason is one or more of the following :
+	1: RAM is sensitive to asynchronous reset signal. this RTL style is not supported. 
+RAM "fifo_mem_reg" dissolved into registers
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'i_pcileech_ft601'. This will prevent further optimization [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/ft601.v:125]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'loop'. This will prevent further optimization [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/ft601.v:160]
+WARNING: [Synth 8-6014] Unused sequential element stated_con_led_reg was removed.  [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/ft601.v:238]
+WARNING: [Synth 8-6014] Unused sequential element con_mem_status_reg was removed.  [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/ft601.v:239]
+WARNING: [Synth 8-6014] Unused sequential element con_mem_status_led_reg was removed.  [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/ft601.v:240]
+WARNING: [Synth 8-6014] Unused sequential element con1_led_reg was removed.  [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/ft601.v:241]
+WARNING: [Synth 8-6014] Unused sequential element con0_led_reg was removed.  [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/ft601.v:242]
+WARNING: [Synth 8-6014] Unused sequential element mem_status_reg was removed.  [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/ft601.v:243]
+WARNING: [Synth 8-7129] Port user_sw1_n in module ft601 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2369.188 ; gain = 703.234 ; free physical = 52069 ; free virtual = 57006
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2378.094 ; gain = 712.141 ; free physical = 52069 ; free virtual = 57007
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2378.094 ; gain = 712.141 ; free physical = 52069 ; free virtual = 57007
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.53 ; elapsed = 00:00:00.53 . Memory (MB): peak = 2384.031 ; gain = 0.000 ; free physical = 52093 ; free virtual = 57030
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc]
+WARNING: [Vivado 12-508] No pins matched 'i_pcileech_ft601/OE_reg_replica_3/C'. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:4]
+WARNING: [Vivado 12-508] No pins matched 'i_pcileech_ft601/OE_reg_replica_1/C'. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:4]
+WARNING: [Vivado 12-508] No pins matched 'i_pcileech_ft601/OE_reg_replica/C'. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:4]
+WARNING: [Vivado 12-508] No pins matched 'i_pcileech_ft601/OE_reg_replica_2/C'. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:4]
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'i_pcileech_ft601/OE_reg/C' matched to 'pin' objects. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:4]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+WARNING: [Vivado 12-1580] clock, cell, port or pin 'i_pcileech_ft601/OE_reg_replica/C' not found. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:4]
+WARNING: [Vivado 12-1580] clock, cell, port or pin 'i_pcileech_ft601/OE_reg_replica_1/C' not found. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:4]
+WARNING: [Vivado 12-1580] clock, cell, port or pin 'i_pcileech_ft601/OE_reg_replica_2/C' not found. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:4]
+WARNING: [Vivado 12-1580] clock, cell, port or pin 'i_pcileech_ft601/OE_reg_replica_3/C' not found. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:4]
+WARNING: [Vivado 12-1580] clock, cell, port or pin 'i_pcileech_ft601/OE_reg_replica_4/C' not found. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:4]
+WARNING: [Vivado 12-1580] clock, cell, port or pin 'i_pcileech_ft601/OE_reg_replica_5/C' not found. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:4]
+WARNING: [Vivado 12-1580] clock, cell, port or pin 'i_pcileech_ft601/OE_reg_replica_6/C' not found. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:4]
+WARNING: [Vivado 12-508] No pins matched 'i_pcileech_ft601/OE_reg_replica_3/C'. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:5]
+WARNING: [Vivado 12-508] No pins matched 'i_pcileech_ft601/OE_reg_replica_1/C'. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:5]
+WARNING: [Vivado 12-508] No pins matched 'i_pcileech_ft601/OE_reg_replica/C'. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:5]
+WARNING: [Vivado 12-508] No pins matched 'i_pcileech_ft601/OE_reg_replica_2/C'. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:5]
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'i_pcileech_ft601/OE_reg/C' matched to 'pin' objects. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:5]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+WARNING: [Vivado 12-1580] clock, cell, port or pin 'i_pcileech_ft601/OE_reg_replica/C' not found. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:5]
+WARNING: [Vivado 12-1580] clock, cell, port or pin 'i_pcileech_ft601/OE_reg_replica_1/C' not found. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:5]
+WARNING: [Vivado 12-1580] clock, cell, port or pin 'i_pcileech_ft601/OE_reg_replica_2/C' not found. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:5]
+WARNING: [Vivado 12-1580] clock, cell, port or pin 'i_pcileech_ft601/OE_reg_replica_3/C' not found. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:5]
+WARNING: [Vivado 12-1580] clock, cell, port or pin 'i_pcileech_ft601/OE_reg_replica_4/C' not found. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:5]
+WARNING: [Vivado 12-1580] clock, cell, port or pin 'i_pcileech_ft601/OE_reg_replica_5/C' not found. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:5]
+WARNING: [Vivado 12-1580] clock, cell, port or pin 'i_pcileech_ft601/OE_reg_replica_6/C' not found. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:5]
+WARNING: [Vivado 12-508] No pins matched 'i_pcileech_ft601/OE_reg_replica_2/C'. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:134]
+WARNING: [Vivado 12-508] No pins matched 'i_pcileech_ft601/OE_reg_replica_3/C'. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:134]
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'i_pcileech_ft601/OE_reg/C' matched to 'pin' objects. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:134]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+WARNING: [Vivado 12-1580] clock, cell, port or pin 'i_pcileech_ft601/OE_reg_replica/C' not found. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:134]
+WARNING: [Vivado 12-1580] clock, cell, port or pin 'i_pcileech_ft601/OE_reg_replica_1/C' not found. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:134]
+WARNING: [Vivado 12-1580] clock, cell, port or pin 'i_pcileech_ft601/OE_reg_replica_2/C' not found. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:134]
+WARNING: [Vivado 12-1580] clock, cell, port or pin 'i_pcileech_ft601/OE_reg_replica_3/C' not found. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:134]
+WARNING: [Vivado 12-1580] clock, cell, port or pin 'i_pcileech_ft601/OE_reg_replica/C' not found. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:134]
+WARNING: [Vivado 12-1580] clock, cell, port or pin 'i_pcileech_ft601/OE_reg_replica_4/C' not found. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:134]
+WARNING: [Vivado 12-1580] clock, cell, port or pin 'i_pcileech_ft601/OE_reg_replica_5/C' not found. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:134]
+WARNING: [Vivado 12-1580] clock, cell, port or pin 'i_pcileech_ft601/OE_reg_replica_6/C' not found. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:134]
+WARNING: [Vivado 12-1580] clock, cell, port or pin 'i_pcileech_ft601/OE_reg_replica_1/C' not found. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:134]
+WARNING: [Vivado 12-508] No pins matched 'i_pcileech_ft601/OE_reg_replica_3/C'. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:136]
+WARNING: [Vivado 12-508] No pins matched 'i_pcileech_ft601/OE_reg_replica_1/C'. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:136]
+WARNING: [Vivado 12-508] No pins matched 'i_pcileech_ft601/OE_reg_replica/C'. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:136]
+WARNING: [Vivado 12-508] No pins matched 'i_pcileech_ft601/OE_reg_replica_2/C'. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:136]
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'i_pcileech_ft601/OE_reg/C' matched to 'pin' objects. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:136]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+WARNING: [Vivado 12-1580] clock, cell, port or pin 'i_pcileech_ft601/OE_reg_replica/C' not found. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:136]
+WARNING: [Vivado 12-1580] clock, cell, port or pin 'i_pcileech_ft601/OE_reg_replica_1/C' not found. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:136]
+WARNING: [Vivado 12-1580] clock, cell, port or pin 'i_pcileech_ft601/OE_reg_replica_2/C' not found. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:136]
+WARNING: [Vivado 12-1580] clock, cell, port or pin 'i_pcileech_ft601/OE_reg_replica_3/C' not found. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:136]
+WARNING: [Vivado 12-1580] clock, cell, port or pin 'i_pcileech_ft601/OE_reg_replica_4/C' not found. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:136]
+WARNING: [Vivado 12-1580] clock, cell, port or pin 'i_pcileech_ft601/OE_reg_replica_5/C' not found. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:136]
+WARNING: [Vivado 12-1580] clock, cell, port or pin 'i_pcileech_ft601/OE_reg_replica_6/C' not found. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:136]
+WARNING: [Vivado 12-508] No pins matched 'i_pcileech_ft601/OE_reg_replica_3/C'. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:144]
+WARNING: [Vivado 12-508] No pins matched 'i_pcileech_ft601/OE_reg_replica_1/C'. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:144]
+WARNING: [Vivado 12-508] No pins matched 'i_pcileech_ft601/OE_reg_replica/C'. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:144]
+WARNING: [Vivado 12-508] No pins matched 'i_pcileech_ft601/OE_reg_replica_2/C'. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:144]
+INFO: [Vivado 12-2286] Implicit search of objects for pattern 'i_pcileech_ft601/OE_reg/C' matched to 'pin' objects. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:144]
+Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz].
+WARNING: [Vivado 12-1580] clock, cell, port or pin 'i_pcileech_ft601/OE_reg_replica/C' not found. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:144]
+WARNING: [Vivado 12-1580] clock, cell, port or pin 'i_pcileech_ft601/OE_reg_replica_1/C' not found. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:144]
+WARNING: [Vivado 12-1580] clock, cell, port or pin 'i_pcileech_ft601/OE_reg_replica_2/C' not found. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:144]
+WARNING: [Vivado 12-1580] clock, cell, port or pin 'i_pcileech_ft601/OE_reg_replica_3/C' not found. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:144]
+WARNING: [Vivado 12-1580] clock, cell, port or pin 'i_pcileech_ft601/OE_reg_replica_4/C' not found. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:144]
+WARNING: [Vivado 12-1580] clock, cell, port or pin 'i_pcileech_ft601/OE_reg_replica_5/C' not found. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:144]
+WARNING: [Vivado 12-1580] clock, cell, port or pin 'i_pcileech_ft601/OE_reg_replica_6/C' not found. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:144]
+WARNING: [Vivado 12-507] No nets matched 'sine[*]'. [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc:148]
+Finished Parsing XDC File [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/pcileech_100t484_x1_captaindma_100t.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/ft601_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/ft601_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2579.660 ; gain = 0.000 ; free physical = 52037 ; free virtual = 56989
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.13 ; elapsed = 00:00:00.14 . Memory (MB): peak = 2579.695 ; gain = 0.000 ; free physical = 52036 ; free virtual = 56989
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2579.695 ; gain = 913.742 ; free physical = 52041 ; free virtual = 56995
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a75tfgg484-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2587.664 ; gain = 921.711 ; free physical = 52041 ; free virtual = 56995
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2587.664 ; gain = 921.711 ; free physical = 52041 ; free virtual = 56995
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Preparing Guide Design
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6702] IncrSynth : Design change found in an area of the design that prevents previous synthesis information being used, Reverting to default synthesis
+---------------------------------------------------------------------------------
+Finished Doing Graph Differ : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 2587.664 ; gain = 921.711 ; free physical = 52041 ; free virtual = 56998
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Preparing Guide Design : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 2587.664 ; gain = 921.711 ; free physical = 52041 ; free virtual = 56998
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'pcileech_ft601'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE5 |                     000001000000 |                             0000
+                 iSTATE1 |                     000000010000 |                             0010
+                  iSTATE |                     000000000001 |                             0011
+                 iSTATE0 |                     000000000100 |                             0100
+                iSTATE10 |                     000000001000 |                             0101
+                 iSTATE9 |                     000000000010 |                             0110
+                 iSTATE6 |                     010000000000 |                             0111
+                 iSTATE8 |                     001000000000 |                             1000
+                 iSTATE7 |                     100000000000 |                             1001
+                 iSTATE4 |                     000100000000 |                             1010
+                 iSTATE3 |                     000010000000 |                             1011
+                 iSTATE2 |                     000000100000 |                             1100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'pcileech_ft601'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 2587.664 ; gain = 921.711 ; free physical = 52123 ; free virtual = 57080
+---------------------------------------------------------------------------------
+
+
+Incremental Synthesis Report Summary:
+
+1. Incremental synthesis run: no
+
+   Reason for not running incremental synthesis : Design change found in an area of the design that prevents previous synthesis information being used
+
+
+INFO: [Synth 8-7130] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   12 Bit       Adders := 2     
+	   2 Input    4 Bit       Adders := 1     
+	   4 Input    3 Bit       Adders := 1     
+	   3 Input    3 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 2056  
+	               12 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 12    
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 8     
+	  12 Input   12 Bit        Muxes := 1     
+	   2 Input   12 Bit        Muxes := 8     
+	   3 Input    2 Bit        Muxes := 1     
+	   3 Input    1 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 17    
+	  12 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 180 (col length:80)
+BRAMs: 210 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7129] Port user_sw1_n in module ft601 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:37 ; elapsed = 00:00:52 . Memory (MB): peak = 2615.598 ; gain = 949.645 ; free physical = 47653 ; free virtual = 52670
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:52 ; elapsed = 00:01:01 . Memory (MB): peak = 2615.598 ; gain = 949.645 ; free physical = 47190 ; free virtual = 52262
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:04 ; elapsed = 00:01:14 . Memory (MB): peak = 2836.551 ; gain = 1170.598 ; free physical = 46959 ; free virtual = 52043
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:12 ; elapsed = 00:01:28 . Memory (MB): peak = 2902.102 ; gain = 1236.148 ; free physical = 45294 ; free virtual = 50374
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4163] Replicating register \FT601_DATA_OUT_reg[0][24]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \FT601_DATA_OUT_reg[0][25]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \FT601_DATA_OUT_reg[0][26]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \FT601_DATA_OUT_reg[0][27]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \FT601_DATA_OUT_reg[0][28]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \FT601_DATA_OUT_reg[0][29]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \FT601_DATA_OUT_reg[0][30]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \FT601_DATA_OUT_reg[0][31]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \FT601_DATA_OUT_reg[0][16]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \FT601_DATA_OUT_reg[0][17]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \FT601_DATA_OUT_reg[0][18]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \FT601_DATA_OUT_reg[0][19]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \FT601_DATA_OUT_reg[0][20]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \FT601_DATA_OUT_reg[0][21]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \FT601_DATA_OUT_reg[0][22]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \FT601_DATA_OUT_reg[0][23]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \FT601_DATA_OUT_reg[0][8]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \FT601_DATA_OUT_reg[0][9]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \FT601_DATA_OUT_reg[0][10]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \FT601_DATA_OUT_reg[0][11]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \FT601_DATA_OUT_reg[0][12]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \FT601_DATA_OUT_reg[0][13]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \FT601_DATA_OUT_reg[0][14]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \FT601_DATA_OUT_reg[0][15]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \FT601_DATA_OUT_reg[0][0]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \FT601_DATA_OUT_reg[0][1]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \FT601_DATA_OUT_reg[0][2]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \FT601_DATA_OUT_reg[0][3]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \FT601_DATA_OUT_reg[0][4]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \FT601_DATA_OUT_reg[0][5]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \FT601_DATA_OUT_reg[0][6]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \FT601_DATA_OUT_reg[0][7]  to handle IOB=TRUE attribute
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:20 ; elapsed = 00:01:36 . Memory (MB): peak = 2965.805 ; gain = 1299.852 ; free physical = 45113 ; free virtual = 50239
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:20 ; elapsed = 00:01:36 . Memory (MB): peak = 2965.805 ; gain = 1299.852 ; free physical = 45113 ; free virtual = 50239
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:24 ; elapsed = 00:01:40 . Memory (MB): peak = 2965.805 ; gain = 1299.852 ; free physical = 45143 ; free virtual = 50270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:24 ; elapsed = 00:01:40 . Memory (MB): peak = 2965.805 ; gain = 1299.852 ; free physical = 45143 ; free virtual = 50270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:25 ; elapsed = 00:01:41 . Memory (MB): peak = 2965.805 ; gain = 1299.852 ; free physical = 45148 ; free virtual = 50275
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:25 ; elapsed = 00:01:41 . Memory (MB): peak = 2965.805 ; gain = 1299.852 ; free physical = 45148 ; free virtual = 50274
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     2|
+|2     |CARRY4 |    34|
+|3     |LUT1   |    26|
+|4     |LUT2   |   168|
+|5     |LUT3   |    28|
+|6     |LUT4   |     9|
+|7     |LUT5   |   236|
+|8     |LUT6   | 19541|
+|9     |MUXF7  |  8736|
+|10    |MUXF8  |  4352|
+|11    |FDCE   |   226|
+|12    |FDPE   |     4|
+|13    |FDRE   | 65767|
+|14    |IBUF   |     5|
+|15    |IOBUF  |    32|
+|16    |OBUF   |     7|
+|17    |OBUFT  |     4|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:25 ; elapsed = 00:01:41 . Memory (MB): peak = 2965.805 ; gain = 1299.852 ; free physical = 45148 ; free virtual = 50274
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 2 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:18 ; elapsed = 00:01:36 . Memory (MB): peak = 2969.719 ; gain = 1102.164 ; free physical = 51709 ; free virtual = 56836
+Synthesis Optimization Complete : Time (s): cpu = 00:01:25 ; elapsed = 00:01:42 . Memory (MB): peak = 2969.719 ; gain = 1303.766 ; free physical = 51731 ; free virtual = 56842
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.56 ; elapsed = 00:00:00.56 . Memory (MB): peak = 2969.719 ; gain = 0.000 ; free physical = 51741 ; free virtual = 56852
+INFO: [Netlist 29-17] Analyzing 13154 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'ft601' is not ideal for floorplanning, since the cellview 'ft601_loopback' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 3013.828 ; gain = 0.000 ; free physical = 51748 ; free virtual = 56860
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 32 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 32 instances
+
+Synth Design complete | Checksum: f3e23b21
+INFO: [Common 17-83] Releasing license: Synthesis
+68 Infos, 68 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:37 ; elapsed = 00:01:54 . Memory (MB): peak = 3013.863 ; gain = 1499.996 ; free physical = 51748 ; free virtual = 56859
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 6428.314; main = 2123.904; forked = 4879.388
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 13121.457; main = 3013.832; forked = 10509.773
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.15 ; elapsed = 00:00:00.05 . Memory (MB): peak = 3037.840 ; gain = 0.000 ; free physical = 51743 ; free virtual = 56859
+INFO: [Common 17-1381] The checkpoint '/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/ft601.runs/synth_1/ft601.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file ft601_utilization_synth.rpt -pb ft601_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Oct  9 23:37:27 2026...

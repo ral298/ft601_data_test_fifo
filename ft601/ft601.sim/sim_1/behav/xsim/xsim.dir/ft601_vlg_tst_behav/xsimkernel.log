@@ -1,0 +1,7 @@
+Running: xsim.dir/ft601_vlg_tst_behav/xsimk -simmode gui -wdb ft601_vlg_tst_behav.wdb -simrunnum 0 -socket 55521
+Design successfully loaded
+Design Loading Memory Usage: 181732 KB (Peak: 181788 KB)
+Design Loading CPU Usage: 760 ms
+Simulation completed
+Simulation Memory Usage: 263728 KB (Peak: 321000 KB)
+Simulation CPU Usage: 770 ms

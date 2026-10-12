@@ -1,0 +1,28 @@
+Time resolution is 1 ps
+Running testbench
+=== INICIANDO SIMULACIÓN ===
+PC -> FPGA  Enviando: 00000000
+PC -> FPGA  Enviando: 00000000
+PC -> FPGA  Enviando: 00000001
+PC -> FPGA  Enviando: 00000002
+PC -> FPGA  Enviando: 00000003
+PC -> FPGA  Enviando: 00000004
+PC -> FPGA  Enviando: 00000005
+PC -> FPGA  Enviando: 00000006
+PC -> FPGA  Enviando: 00000007
+PC -> FPGA  Enviando: 00000008
+PC -> FPGA  Enviando: 00000000
+PC -> FPGA  Enviando: aa8d4a5b
+PC -> FPGA  Enviando: 622eafe7
+PC -> FPGA  Enviando: 00000002
+PC -> FPGA  Enviando: 00000003
+PC -> FPGA  Enviando: 00000004
+PC -> FPGA  Enviando: 00000005
+PC -> FPGA  Enviando: 00000006
+PC -> FPGA  Enviando: 00000007
+PC -> FPGA  Enviando: 6ba71bac
+PC -> FPGA  Enviando: 00000000
+PC -> FPGA  Enviando: 1207c5ea
+PC -> FPGA  Enviando: 5d16ccc5
+PC -> FPGA  Enviando: 00000002
+$stop called at time : 4125 ps : File "/home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/ft601_test.v" Line 380

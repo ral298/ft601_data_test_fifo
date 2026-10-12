@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Wed May 21 22:58:25 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Fri Oct  9 23:35:26 2026
+# Process ID         : 6785
+# Current directory  : /home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/ft601.runs/synth_1
+# Command line       : vivado -log ft601.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ft601.tcl
+# Log file           : /home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/ft601.runs/synth_1/ft601.vds
+# Journal file       : /home/ral298/Documentos/cic/DCC/verilog_usb3/vivado/ft601/ft601.runs/synth_1/vivado.jou
+# Running On         : ral298-System-Product-Name
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 22.04.5 LTS
+# Processor Detail   : AMD Ryzen 7 5700G with Radeon Graphics
+# CPU Frequency      : 4652.846 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 62978 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 65126 MB
+# Available Virtual  : 61431 MB
+#-----------------------------------------------------------
+source ft601.tcl -notrace
